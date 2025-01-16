@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness en Wellness</title>
+    <link rel="stylesheet" href="fitness.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo" class="logo">
+        <h1 id="header">Fitness en wellness</h1>
+        <div class="menu">
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="menu-content" id="dropdownMenu">
+                <a href="../vlucht/vlucht.html">vlucht</a>
+                <a href="../details/details.html">details</a>
+                <a href="../restaurant/restaurant.html">restaurant</a>
+                <a href="../fitness/fitnesswellness.html">fitness en wellness</a>
+                <a href="../vrholodeck/vrholodeck.html">vrholodeck</a>
+                <a href="../bibliotheek/bibliotheek.html">bibliotheek</a>
+                <a href="../webcamfeeds/webcamfeeds.html">webcams</a>
+                <a href="../minigames/minigames.html">minigames</a>
+                <a href="../films/films.html">films</a>
+                <a href="../muziek/muziek.html">muziek</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="fitness-wellness">
+            <div class="image-container">
+                <img src="images/fitness.png" alt="Fitness 1" class="image" onclick="toggleDropdown('fitness1Dropdown')">
+                <div class="dropdown-content" id="fitness1Dropdown">
+                    <p>Fitness ruimte
+                       <br>
+                       <br>
+                        De fitness ruimte is de plek waar je kunt werken aan je conditie.
+                        <br> 
+                         De ruimte is open van 10:00 tot 22:00.
+                    </p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="images/tennis.png" alt="Fitness 2" class="image" onclick="toggleDropdown('fitness2Dropdown')">
+                <div class="dropdown-content" id="fitness2Dropdown">
+                    <p>Tennis veld
+                        <br>
+                        <br>
+                        Op tennis veld kun je samen of alleen tennisen buiten en binnen.
+                        <br>
+                        Het veld is open van 13:00 tot 17:00.
+                    </p>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="images/sauna.png" alt="Wellness 1" class="image" onclick="toggleDropdown('wellness1Dropdown')">
+                <div class="dropdown-content" id="wellness1Dropdown">
+                    <p>Sauna ruimte
+                        <br>
+                        <br>
+                        De sauna ruimte is een plek waar je heerlijk kunt ontspannen.
+                        <br>
+                        De ruimte is open van 19:00 tot 22:00.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="fitness.js"></script>
+</body>
+</html>

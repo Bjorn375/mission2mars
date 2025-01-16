@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibliotheek</title>
+    <link rel="stylesheet" href="bibliotheek.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo" class="logo">
+        <h1 id="header">Bibliotheek</h1>
+        <div class="menu">
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="menu-content" id="dropdownMenu">
+                <a href="../vlucht/vlucht.html">vlucht</a>
+                <a href="../details/details.html">details</a>
+                <a href="../restaurant/restaurant.html">restaurant</a>
+                <a href="../fitness/fitnesswellness.html">fitness en wellness</a>
+                <a href="../vrholodeck/vrholodeck.html">vrholodeck</a>
+                <a href="../bibliotheek/bibliotheek.html">bibliotheek</a>
+                <a href="../webcamfeeds/webcamfeeds.html">webcams</a>
+                <a href="../minigames/minigames.html">minigames</a>
+                <a href="../films/films.html">films</a>
+                <a href="../muziek/muziek.html">muziek</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="categories">
+            <div class="category">
+                <div class="category-title" onclick="toggleDropdown('romanceDropdown')">Romance</div>
+                <div class="dropdown-content" id="romanceDropdown">
+                    <a href="../bibliotheek/onderdesterrenvanvalencia.html">Onder de Sterren van Valencia</a>
+                </div>
+            </div>
+            <div class="category">
+                <div class="category-title" onclick="toggleDropdown('actionDropdown')">Action</div>
+                <div class="dropdown-content" id="actionDropdown">
+                    <a href="../bibliotheek/coderedhetverliesvanzero.html">Code Red: Het Verlies van Zero</a>
+                </div>
+            </div>
+            <div class="category">
+                <div class="category-title" onclick="toggleDropdown('thrillerDropdown')">Thriller</div>
+                <div class="dropdown-content" id="thrillerDropdown">
+                    <a href="../bibliotheek/deschaduwvandewaarheid.html">De Schaduw van de Waarheid</a>
+                </div>
+            </div>
+            <div class="category">
+                <div class="category-title" onclick="toggleDropdown('fantasyDropdown')">Fantasy</div>
+                <div class="dropdown-content" id="fantasyDropdown">
+                    <a href="../bibliotheek/dewachtersvaneldarion.html">De Wachters van Eldarion</a>
+                </div>
+            </div>
+            <div class="category">
+                <div class="category-title" onclick="toggleDropdown('horrorDropdown')">Horror</div>
+                <div class="dropdown-content" id="horrorDropdown">
+                    <a href="../bibliotheek/hethuisaandegrens.html">Het Huis aan de Grens</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="bibliotheek.js"></script>
+</body>
+</html>
