@@ -304,3 +304,9 @@
     text-decoration: none; 
     cursor: pointer; 
 }
+
+.movie {
+   align-items: center;
+   border-radius: 8px;
+   box-shadow: 0 0px 8px rgb(255, 255, 255);
+}
