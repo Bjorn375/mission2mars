@@ -111,7 +111,7 @@
 }
 
 .main__container {
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-self: center;
@@ -122,6 +122,8 @@
     width: 100%;
     max-width: 1300px;
     padding: 0 50px;
+    justify-content: space-around;
+    padding: 20px;
 }
 
 .main__content {
@@ -283,12 +285,6 @@
 
 .website__rights {
     color: #ffffff;
-}
-
-.fitness-wellness {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
 }
 
 .image-container {
