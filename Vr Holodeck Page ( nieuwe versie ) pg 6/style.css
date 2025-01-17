@@ -165,22 +165,16 @@
 }
 
 .main__img--container {
-    display: flex;
-    justify-content: center;
-    align-items: center;     
-    height: 100vh;           
-    width: 100vw;
-   margin-left: -17%;
+    text-align: center;
 }
 
 #main__img {
     height: auto;
-    width: 65%;
+    width: 100%;
     max-width: 20000px;
     border-radius: 8px;
+    margin-left: -5%;
     box-shadow: 0 0px 8px rgb(255, 255, 255);
-    left: 500px;
-    
 }
 
 /* footer */
